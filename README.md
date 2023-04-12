@@ -1,4 +1,4 @@
-# Lekce 01 - outline
+# Lekce 01 - outline
 - Box model 
 - Display
 - Git x GitHub
