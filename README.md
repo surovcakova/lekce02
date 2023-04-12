@@ -2,4 +2,4 @@
 - Box model 
 - Display
 
-https://github.com/HTML-CSS-1-podklady/Projekt-01-vizitka (Projekt 01 - vizitka) - deadline do 23.4. 20:00
+https://github.com/HTML-CSS-1-podklady/Projekt-01-vizitka(Projekt 01 - vizitka) - deadline do 23.4. 20:00
