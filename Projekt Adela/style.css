@@ -1,0 +1,32 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin: 0;
+  padding: 150px 30px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  background: url('obrazky/hlavicka.jpg') center center no-repeat;
+  background-size: cover;
+  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+/*
+sTo nahoře je černá magie, na to raději nešahej.
+Ale sem dolů už si můžeš psát, co budeš chtít.
+
+Tohle je mimochodem opět komentář, ale v CSS.
+Začíná a končí trochu jinak než v HTML, ale
+princip je stejný.
+------------------------------------------------
+*/
+

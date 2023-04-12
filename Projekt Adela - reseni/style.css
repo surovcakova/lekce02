@@ -1,0 +1,163 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #282425;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+/* Hlavička */
+h1 {
+  margin: 0;
+  padding: 150px 30px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  background: url('obrazky/hlavicka.jpg') center center no-repeat;
+  background-size: cover;
+  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #756158;
+}
+
+h3 {
+  font-size: 24px;
+  color: #756158;
+}
+
+a {
+  color: #756158;
+  font-style: italic;
+}
+
+a:hover {
+  color: #282425;
+}
+
+/* Sekce a barvy pozadí */
+section {
+  padding: 50px 15%;
+  overflow: auto;
+}
+
+.omne,
+.pruvodce {
+  background-color: #fff1e6;
+}
+
+.fotogalerie,
+.kontakt {
+  background-color: #f9e3d0;
+}
+
+/* Patička */
+.paticka {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #282425;
+  color: white;
+}
+
+/* Sekce O mně */
+.profil {
+  float: left;
+  width: 200px;
+  margin: 0 30px 30px 0;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Sekce Fotogalerie */
+.fotogalerie img {
+  width: 32%;
+  border: 2px solid #756158;
+  border-radius: 5px;
+}
+
+/* Sekce Turistický průvodce */
+.foto-pruvodce {
+  float: right;
+  width: 350px;
+  margin: 0 0 30px 30px;
+  border-radius: 0 50px 50px 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+table {
+  border-spacing: 0;
+}
+
+th,
+td {
+  padding: 10px 0;
+  text-align: left;
+  border-bottom: 1px solid #756158;
+}
+
+.cena {
+  padding-left: 50px;
+  text-align: right;
+}
+
+/* Sekce Kontakt */
+.foto-kontakt {
+  float: left;
+  width: 350px;
+  margin: 0 30px 30px 0;
+  border-radius: 50px 0 50px 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Hlavní menu */
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: white;
+  background-color: #282425;
+  border-top: 1px solid #9c8175;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  background-color: #756158;
+}
