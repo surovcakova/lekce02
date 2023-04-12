@@ -25,7 +25,10 @@ h1, h2, h3 {
  tmavsi     #95a5a6
  tmava      #34495e
 */
-
+a {
+    margin: 100px;
+    
+}
 
 .sedy    { background-color: #e5e5e5; }
 .zluty   { background-color: #ffffd0; }
@@ -52,6 +55,7 @@ h1, h2, h3 {
 
 .druhy {
     background-color: #f1c40f;
+
 }
 
 .treti {
